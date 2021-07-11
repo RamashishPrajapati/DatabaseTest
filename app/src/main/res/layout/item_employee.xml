@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_empid"
+                    style="@style/Custom_texts_14sp_bold"
+                    android:text="@string/emp_id"></com.google.android.material.textview.MaterialTextView>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_setempid"
+                    style="@style/Custom_texts_14sp"
+                    android:hint="@string/emp_id"></com.google.android.material.textview.MaterialTextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_empname"
+                    style="@style/Custom_texts_14sp_bold"
+                    android:text="@string/emp_name"></com.google.android.material.textview.MaterialTextView>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_setempname"
+                    style="@style/Custom_texts_14sp"
+                    android:hint="@string/emp_name"></com.google.android.material.textview.MaterialTextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_currentsalary"
+                    style="@style/Custom_texts_14sp_bold"
+                    android:text="@string/current_salary"></com.google.android.material.textview.MaterialTextView>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_setcureentsalary"
+                    style="@style/Custom_texts_14sp"
+                    android:hint="@string/current_salary"></com.google.android.material.textview.MaterialTextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_joiningdate"
+                    style="@style/Custom_texts_14sp_bold"
+                    android:text="@string/joining_date"></com.google.android.material.textview.MaterialTextView>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_setjoiningdate"
+                    style="@style/Custom_texts_14sp"
+                    android:hint="@string/joining_date"></com.google.android.material.textview.MaterialTextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_location"
+                    style="@style/Custom_texts_14sp_bold"
+                    android:text="@string/location"></com.google.android.material.textview.MaterialTextView>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_setlocation"
+                    style="@style/Custom_texts_14sp"
+                    android:hint="@string/location"></com.google.android.material.textview.MaterialTextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_isonline"
+                    style="@style/Custom_texts_14sp_bold"
+                    android:text="@string/isonline"></com.google.android.material.textview.MaterialTextView>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_setisonline"
+                    style="@style/Custom_texts_14sp"
+                    android:hint="@string/isonline"></com.google.android.material.textview.MaterialTextView>
+
+            </TableRow>
+
+            <TableRow>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_designation"
+                    style="@style/Custom_texts_14sp_bold"
+                    android:text="@string/designation"></com.google.android.material.textview.MaterialTextView>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_setdesignation"
+                    style="@style/Custom_texts_14sp"
+                    android:hint="@string/designation"></com.google.android.material.textview.MaterialTextView>
+
+            </TableRow>
+
+        </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

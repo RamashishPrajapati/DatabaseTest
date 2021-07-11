@@ -1,0 +1,92 @@
+﻿[
+  {
+    "Emp Id": "1",
+    "Emp Name": "Vinod Gupta",
+    "Current Salary": "2,00,000",
+    "Joining Date": "02/06/2020",
+    "Location": "Mumbai",
+    "isOnline": "yes",
+    "Designation": "Implementation engineer"
+  },
+  {
+    "Emp Id": "2",
+    "Emp Name": "Rajveer Purohit",
+    "Current Salary": "5,50,000",
+    "Joining Date": "02/06/2020",
+    "Location": "Pune",
+    "isOnline": "no",
+    "Designation": "Lead Android engineer"
+  },
+  {
+    "Emp Id": "3",
+    "Emp Name": "Anand Kumar",
+    "Current Salary": "2,00,000",
+    "Joining Date": "30/11/2019",
+    "Location": "Bhuvneshwar",
+    "isOnline": "yes",
+    "Designation": "Implementation engineer"
+  },
+  {
+    "Emp Id": "4",
+    "Emp Name": "Ritesh Singh",
+    "Current Salary": "6,00,000",
+    "Joining Date": "06/10/2018",
+    "Location": "Pune",
+    "isOnline": "yes",
+    "Designation": "Lead Frontend engineer"
+  },
+  {
+    "Emp Id": "5",
+    "Emp Name": "Vishal Jain",
+    "Current Salary": "2,00,000",
+    "Joining Date": "14/02/2020",
+    "Location": "Delhi",
+    "isOnline": "yes",
+    "Designation": "Implementation engineer"
+  },
+  {
+    "Emp Id": "6",
+    "Emp Name": "Milind Singh",
+    "Current Salary": "7,00,000",
+    "Joining Date": "07/06/2020",
+    "Location": "Guwahati",
+    "isOnline": "yes",
+    "Designation": "Lead Backend engineer"
+  },
+  {
+    "Emp Id": "7",
+    "Emp Name": "Bhavin Visariya",
+    "Current Salary": "8,00,000",
+    "Joining Date": "13/05/2018",
+    "Location": "Bengluru",
+    "isOnline": "no",
+    "Designation": "Lead Fullstack engineer"
+  },
+  {
+    "Emp Id": "8",
+    "Emp Name": "Nadeem shaikh",
+    "Current Salary": "10,00,000",
+    "Joining Date": "30/12/2018",
+    "Location": "Hyderabad",
+    "isOnline": "yes",
+    "Designation": "VP Engineering"
+  },
+  {
+    "Emp Id": "9",
+    "Emp Name": "Virendra Patil",
+    "Current Salary": "12,00,000",
+    "Joining Date": "03/02/2019",
+    "Location": "Kerala",
+    "isOnline": "yes",
+    "Designation": "CTO"
+  },
+  {
+    "Emp Id": "10",
+    "Emp Name": "Ayushi Parashar",
+    "Current Salary": "3,00,000",
+    "Joining Date": "23/06/2019",
+    "Location": "Cochin",
+    "isOnline": "yes",
+    "Designation": "Lead QA engineer"
+  }
+]
