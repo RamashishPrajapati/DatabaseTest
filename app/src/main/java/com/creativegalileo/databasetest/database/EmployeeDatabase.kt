@@ -32,7 +32,6 @@ abstract class EmployeeDatabase : RoomDatabase() {
     ) : RoomDatabase.Callback() {
         override fun onCreate(db: SupportSQLiteDatabase) {
             super.onCreate(db)
-
             INSTANCE.let { database ->
                 scope.launch {
                     var employeeDao = database!!.employeeDao()

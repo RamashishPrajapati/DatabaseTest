@@ -7,4 +7,6 @@
     <string name="location">Location</string>
     <string name="isonline">IsOnline</string>
     <string name="designation">Designation</string>
+    <string name="remove_last">Remove Last</string>
+    <string name="show_next">Show Next</string>
 </resources>

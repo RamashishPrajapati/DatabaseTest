@@ -51,39 +51,37 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun initlistner() {
         /*initializing button click listener*/
-        binding.btnNext.setOnClickListener(this)
-        binding.btnDelete.setOnClickListener(this)
+        binding.btnShowNext.setOnClickListener(this)
+        binding.btnRemoveLast.setOnClickListener(this)
     }
 
     /*Setting up Onserver with viewmodel to observer live data fetching from database*/
     private fun setupObserver() {
         employeeViewModel.employeeDetails().observe(this, Observer {
-            it.let {
-                /*checking employee object coming from datatabse is null or not, if not null then
-                if block get executed or else block will */
-                if (it != null) {
-                    emplyeeList.add(emplyeeList.size, it)
-                    employeeAdapter.submitList(emplyeeList)
-                    employeeAdapter.notifyItemInserted(emplyeeList.size - 1)
-                    binding.rvEmployeeDetails.scrollToPosition(employeeAdapter.itemCount - 1)
-                } else {
-                    /*if employee object is empty i.e. database has no more record in it,
-                     then showing below toast to user*/
-                    Toast.makeText(this, "No record found", Toast.LENGTH_SHORT).show()
-                }
+            /*checking employee object coming from datatabse is null or not, if not null then
+            if block get executed or else block will */
+            if (it != null) {
+                emplyeeList.add(emplyeeList.size, it)
+                employeeAdapter.submitList(emplyeeList)
+                employeeAdapter.notifyItemInserted(emplyeeList.size - 1)
+                binding.rvEmployeeDetails.scrollToPosition(employeeAdapter.itemCount - 1)
+            } else {
+                /*if employee object is empty i.e. database has no more record in it,
+                 then showing below toast to user*/
+                Toast.makeText(this, "No record found", Toast.LENGTH_SHORT).show()
             }
         })
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.btnNext -> {
+            R.id.btnShowNext -> {
                 /*On clicking on next button on screen next record from database
                  will get fetch by passing incremented array list value */
                 employeeViewModel.getEmployeeDetailsById(emplyeeList.size + 1)
             }
 
-            R.id.btnDelete -> {
+            R.id.btnRemoveLast -> {
                 /*On clicking on delete button on screen last record from list will get delete from recyclerview*/
                 /*Before delete record from list checking the size of list,
                 if list has value then if block will execute or else block will execute*/
@@ -100,6 +98,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
-
 
 }

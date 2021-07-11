@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    app:cardCornerRadius="6dp"
-    app:cardElevation="4dp">
+    android:layout_margin="@dimen/dim_10dp"
+    app:cardCornerRadius="@dimen/dim_6dp"
+    app:cardElevation="@dimen/dim_4dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="6dp"
+            android:layout_margin="@dimen/dim_6dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -24,8 +24,8 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_empid"
-                    style="@style/Custom_texts_14sp_bold"
-                    android:text="@string/emp_id"></com.google.android.material.textview.MaterialTextView>
+                    style="@style/Custom_texts_16sp_bold"
+                    android:text="@string/emp_id" />
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_setempid"
@@ -38,7 +38,7 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_empname"
-                    style="@style/Custom_texts_14sp_bold"
+                    style="@style/Custom_texts_16sp_bold"
                     android:text="@string/emp_name"></com.google.android.material.textview.MaterialTextView>
 
                 <com.google.android.material.textview.MaterialTextView
@@ -52,7 +52,7 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_currentsalary"
-                    style="@style/Custom_texts_14sp_bold"
+                    style="@style/Custom_texts_16sp_bold"
                     android:text="@string/current_salary"></com.google.android.material.textview.MaterialTextView>
 
                 <com.google.android.material.textview.MaterialTextView
@@ -66,7 +66,7 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_joiningdate"
-                    style="@style/Custom_texts_14sp_bold"
+                    style="@style/Custom_texts_16sp_bold"
                     android:text="@string/joining_date"></com.google.android.material.textview.MaterialTextView>
 
                 <com.google.android.material.textview.MaterialTextView
@@ -80,7 +80,7 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_location"
-                    style="@style/Custom_texts_14sp_bold"
+                    style="@style/Custom_texts_16sp_bold"
                     android:text="@string/location"></com.google.android.material.textview.MaterialTextView>
 
                 <com.google.android.material.textview.MaterialTextView
@@ -94,7 +94,7 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_isonline"
-                    style="@style/Custom_texts_14sp_bold"
+                    style="@style/Custom_texts_16sp_bold"
                     android:text="@string/isonline"></com.google.android.material.textview.MaterialTextView>
 
                 <com.google.android.material.textview.MaterialTextView
@@ -108,7 +108,7 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/tv_designation"
-                    style="@style/Custom_texts_14sp_bold"
+                    style="@style/Custom_texts_16sp_bold"
                     android:text="@string/designation"></com.google.android.material.textview.MaterialTextView>
 
                 <com.google.android.material.textview.MaterialTextView
