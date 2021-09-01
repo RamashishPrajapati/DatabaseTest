@@ -1,9 +1,9 @@
-package com.creativegalileo.databasetest.repository
+package com.ram.databasetest.repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.creativegalileo.databasetest.dao.EmployeeDao
-import com.creativegalileo.databasetest.model.Employee
+import com.ram.databasetest.dao.EmployeeDao
+import com.ram.databasetest.model.Employee
 
 /**
  * Created by Ramashish Prajapati on 11,July,2021

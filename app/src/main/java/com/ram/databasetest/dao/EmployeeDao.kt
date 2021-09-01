@@ -1,10 +1,10 @@
-package com.creativegalileo.databasetest.dao
+package com.ram.databasetest.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.creativegalileo.databasetest.model.Employee
+import com.ram.databasetest.model.Employee
 
 /**
  * Created by Ramashish Prajapati on 11,July,2021

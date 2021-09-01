@@ -1,12 +1,12 @@
-package com.creativegalileo.databasetest.adapter
+package com.ram.databasetest.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.creativegalileo.databasetest.databinding.ItemEmployeeBinding
-import com.creativegalileo.databasetest.model.Employee
+import com.ram.databasetest.databinding.ItemEmployeeBinding
+import com.ram.databasetest.model.Employee
 import kotlinx.android.synthetic.main.item_employee.view.*
 
 /**

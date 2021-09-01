@@ -1,4 +1,4 @@
-package com.creativegalileo.databasetest
+package com.ram.databasetest
 
 import org.junit.Test
 

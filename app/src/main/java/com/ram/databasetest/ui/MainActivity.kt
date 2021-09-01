@@ -1,4 +1,4 @@
-package com.creativegalileo.databasetest.ui
+package com.ram.databasetest.ui
 
 import android.os.Bundle
 import android.view.View
@@ -7,11 +7,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.creativegalileo.databasetest.R
-import com.creativegalileo.databasetest.adapter.EmployeeAdapter
-import com.creativegalileo.databasetest.databinding.ActivityMainBinding
-import com.creativegalileo.databasetest.model.Employee
-import com.creativegalileo.databasetest.viewModel.EmployeeViewModel
+import com.ram.databasetest.R
+import com.ram.databasetest.adapter.EmployeeAdapter
+import com.ram.databasetest.databinding.ActivityMainBinding
+import com.ram.databasetest.model.Employee
+import com.ram.databasetest.viewModel.EmployeeViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {

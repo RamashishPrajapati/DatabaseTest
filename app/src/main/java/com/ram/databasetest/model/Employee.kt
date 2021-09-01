@@ -1,4 +1,4 @@
-package com.creativegalileo.databasetest.model
+package com.ram.databasetest.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

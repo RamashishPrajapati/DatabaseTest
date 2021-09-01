@@ -1,12 +1,12 @@
-package com.creativegalileo.databasetest.viewModel
+package com.ram.databasetest.viewModel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.creativegalileo.databasetest.database.EmployeeDatabase
-import com.creativegalileo.databasetest.model.Employee
-import com.creativegalileo.databasetest.repository.EmployeeRepository
+import com.ram.databasetest.database.EmployeeDatabase
+import com.ram.databasetest.model.Employee
+import com.ram.databasetest.repository.EmployeeRepository
 import kotlinx.coroutines.launch
 
 /**
